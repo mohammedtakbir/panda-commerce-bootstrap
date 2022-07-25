@@ -3,7 +3,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-
+img{
+    width: 100%;
+}
 /* ------------ Navbar Start--------------  */
 .nav-item{
     margin: 0 10px;
@@ -14,48 +16,39 @@ body{
 
 /* ------------ Navbar End--------------  */
 /* ------------ Slider Start--------------  */
-
-.banner-bg{
+.bg-slider{
     background-color: #FEEAE9;
 }
-.carousel-item{
-    padding: 20px 0 20px 40px;
-}
-.carousel-item img{
-    object-fit: cover;
-}
-.slider-info h2{
-    font-size: 56px;
+.banner-info h2{
+    font-size: 45px;
     font-weight: 700;
-    margin-bottom: 14px;
+    margin-bottom: 15px;
 }
-.slider-info p{
+.banner-info p{
     color: #4E4E4E;
-    font-size: 1rem;
-    margin-bottom: 30px;
 }
-.slider-info h3{
+.banner-info h5{
+    font-size: 38px;
+    font-weight: 500;
     color: #FF136F;
-    font-size: 41px;
-    font-weight: 500;
+    margin-bottom: 20px;
 }
-.btn-silde{
-    background: linear-gradient(to bottom, #f8589b, #ff136f);
-    color: #fff;
-    padding: 10px 25px;
-    font-weight: 500;
+.btn-slider{
+    background: linear-gradient(to bottom, #f81d71, #e70a5f);
+    color: #fff !important;
+    border: 0 !important;
 }
+
 /* ------------ Slider End--------------  */
 /* ------------ Categories Start--------------  */
-
-
-
-
-
-
-
-
-
+.shoes{
+    margin-top: 50px;
+    padding: 70px 0;
+    background-color: #F4F4F4;
+}
+.backpack{
+    margin-top: 0;
+}
 
 
 
@@ -63,6 +56,3 @@ body{
 
 
 /* ------------ Categories End--------------  */
-.shoes{
-    background-color: #F4F4F4;
-}
